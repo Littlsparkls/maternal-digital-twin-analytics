@@ -37,14 +37,12 @@ Clinical Impact
 • Early Intervention: Detects systemic changes at 125–130 mmHg for patients with low baselines, preventing delayed care.
 
 
-How to "Save" your Project for Sharing:
+Project Structure
 
-1. Export to HTML: In Carnets, tap File > Download as > HTML.
+data/: Synthetic longitudinal vitals (280-day gestation simulations).
 
-2. Upload to GitHub: Upload the .ipynb file and the .html file.
+notebooks/: Full EDA, Digital Twin modeling, and Z-Score visualization.
 
-3. The "Live" Link: If you use GitHub Pages, you can host the HTML file so anyone can view your charts and code directly in their browser.
+scripts/: Python functions for automated clinical shift detection.
 
-
-![Maternal Digital Twin Chart]
-(maternal_digital_twin_chart.png)
+outputs/: Visualizations of the "Break in Rhythm" detected by the model.
