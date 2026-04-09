@@ -86,7 +86,7 @@ A *digital twin* is a virtual representation of a real-world entity. In this con
 ## 👩‍💻 Author
 **Abigael Damilola Ajala**  
 - Data Analyst | Healthcare Analytics  
-- LinkedIn: https://linkedin.com/in/abigael-ajala-b470b7198  
+- LinkedIn: https://linkedin.com/in/abigaelajala  
 - GitHub: https://github.com/Littlsparkls  
 
 ---
