@@ -1,48 +1,101 @@
-Maternal Digital Twin Early-Warning System
+# 🤰 Maternal Digital Twin Analytics
 
-Project Overview
+## 🧾 Project Overview
+This project presents a conceptual **Maternal Digital Twin Analytics system** designed to simulate and monitor maternal health indicators for early detection of pregnancy-related risks, particularly gestational hypertension.
 
-This project demonstrates a "Digital Twin" approach to maternal health monitoring, shifting from population-wide averages to N-of-1 personalized baselines. By identifying biological "breaks in rhythm" in blood pressure and heart rate, this model provides a 4–5 day early warning for gestational hypertension before traditional clinical thresholds are breached.
+A *digital twin* is a virtual representation of a real-world entity. In this context, the project models maternal health data to identify patterns and generate early warning signals before clinical thresholds are reached.
 
+---
 
-Key Features
+## 🎯 Objectives
+- Simulate maternal health data for analytical modeling  
+- Identify early indicators of gestational hypertension  
+- Analyze trends in maternal health parameters over time  
+- Demonstrate how predictive analytics can support proactive healthcare interventions  
 
-• Personalized Baselines: Uses the first 30 days of gestation to establish a "Healthy Self" reference for each patient.
+---
 
-• Z-Score Shift Detection: A custom-built statistical engine that identifies deviations exceeding 2.0 standard deviations from the initial baseline.
+## 🛠️ Tools & Technologies
+- **Python** (Pandas, NumPy)  
+- **Data Visualization:** Matplotlib, Seaborn  
+- **Environment:** Jupyter Notebook  
 
-• Clinical Triage Logic: Automatically categorizes patients into "Stable" or "Clinical Review Required" based on physiological trajectory.
+---
 
-• iOS Optimized Architecture: Developed entirely in Carnets (Jupyter) on iPad, utilizing a "Pure Python" stack to bypass binary dependency limitations (scikit-learn/adtk) in mobile environments.
+## 🔍 Data Description
+- The dataset used in this project was **curated and manipulated** for analytical and demonstration purposes  
+- It simulates maternal health indicators such as:
+  - Blood pressure levels  
+  - Heart rate  
+  - Age  
+  - Weight  
+  - Gestational stage  
+  - Risk indicators  
 
-The Technical Challenge: "Baseline Drift"
-During development, initial "Sliding Window" models failed to detect anomalies because the baseline drifted upward alongside the rising blood pressure. I pivoted to a Fixed Initial Baseline strategy, which successfully isolated the deviation from the patient's healthy 1st-trimester state.
+> ⚠️ Note: This dataset is not real patient data and was created to demonstrate analytical techniques and predictive modeling concepts.
 
+---
 
-Tech Stack
+## 🔬 Methodology
 
-• Language: Python 3.x
+### 1. Data Preparation
+- Generated and structured synthetic maternal health data  
+- Cleaned and formatted data for analysis  
+- Ensured logical consistency across variables  
 
-• Libraries: Pandas, NumPy, Matplotlib, SQLite3
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed distributions of key health indicators  
+- Identified patterns and trends in simulated maternal data  
+- Examined relationships between variables (e.g., blood pressure vs. gestational stage)  
 
-• Environment: Carnets (iOS / Mobile Jupyter)
+### 3. Data Visualization
+- Created visualizations to track health trends over time  
+- Highlighted risk patterns using charts and plots  
+- Used visual storytelling to communicate findings  
 
-• Domain Logic: Midwifery, Public Health Nursing
+### 4. Predictive Insight Concept
+- Identified early warning signals for potential hypertension risk  
+- Demonstrated how data can be used for proactive monitoring  
+- Showcased the concept of continuous health tracking using a digital twin approach  
 
+---
 
-Clinical Impact
+## 📈 Key Insights
+- Elevated blood pressure trends can be detected before reaching critical thresholds  
+- Combining multiple indicators improves early risk identification  
+- Simulated continuous monitoring provides better insight than isolated measurements  
+- Predictive analytics can enhance maternal healthcare outcomes  
 
-• Reduced Alarm Fatigue: Filters out daily "noise" (e.g., stress, caffeine) by focusing on 7-day trend shifts.
+---
 
-• Early Intervention: Detects systemic changes at 125–130 mmHg for patients with low baselines, preventing delayed care.
+## 📊 Project Output
+- Simulated dataset representing maternal health conditions  
+- Visualizations showing trends and potential risk indicators  
+- Analytical insights supporting early intervention strategies  
 
+---
 
-Project Structure
+## 💡 Future Improvements
+- Integrate real-world datasets for more robust modeling  
+- Apply machine learning models for risk prediction  
+- Build an interactive dashboard (Power BI, Tableau, or Streamlit)  
+- Expand to include additional maternal and fetal health indicators  
 
-data/: Synthetic longitudinal vitals (280-day gestation simulations).
+---
 
-notebooks/: Full EDA, Digital Twin modeling, and Z-Score visualization.
+## 👩‍💻 Author
+**Abigael Damilola Ajala**  
+- Data Analyst | Healthcare Analytics  
+- LinkedIn: https://linkedin.com/in/abigael-ajala-b470b7198  
+- GitHub: https://github.com/Littlsparkls  
 
-scripts/: Python functions for automated clinical shift detection.
+---
 
-outputs/: Visualizations of the "Break in Rhythm" detected by the model.
+## ⭐ Final Note
+This project demonstrates my ability to:
+- Work with curated/simulated datasets  
+- Apply data analysis techniques to healthcare problems  
+- Translate complex concepts into actionable insights  
+- Combine domain knowledge with data analytics  
+
+It reflects my strong interest in **Healthcare Analytics, Predictive Modeling, and Digital Health Innovation**.
